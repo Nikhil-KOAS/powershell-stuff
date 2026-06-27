@@ -17,7 +17,7 @@
   * In 'add arguments', paste your path from earlier and press ok
   * Under Conditions>POWER, make sure all boxes are unchecked
   * Press Ok
-  * Press Run in the right hand pane (A powershell screen should appear.) (In future you only need to open task scheduler, then select your task, then press run)
+  * Press Run in the right hand pane (A powershell screen should appear. DO NOT CLOSE THIS WINDOW) (In future you only need to open task scheduler, then select your task, then press run)
   * You will now need to close edge / create a new window so that that the script can work. 
   * Smoothwall is now disabled (This may sometimes trigger a different firewall screen in school, but this should always work at home)
   ### Non-Reccomended (Only works sometimes)
