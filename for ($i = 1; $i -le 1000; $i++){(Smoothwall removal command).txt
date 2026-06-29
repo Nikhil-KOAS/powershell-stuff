@@ -45,3 +45,18 @@ Minecraft education - maybe needs to be done everytime system restarts
 
 winget install "Minecraft Education"
 Y
+
+
+
+
+
+Auto-InstallationCommand
+
+$newScriptInfo = @{
+  Path = "C:\Users\DasGuptaN\Downloads\while-smooth.ps1"
+  Version = '1.0'
+  Author = 'jeff@amazon.com'
+  Description = "Disables smoothwall while the command is running"
+}
+New-ScriptFileInfo @newScriptInfo
+Disable-Smoothwall -Path $newScriptInfo.Path
